@@ -17,6 +17,8 @@ public class Services {
 
     public int doOperation(UserRequest userRequest) throws Exception {
 
+
+
         // get Operation tye
         Strategy strategy = this.mapOperation.getOperationType(userRequest.getOperation());
         System.out.println(userRequest.getOperation());
